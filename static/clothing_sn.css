@@ -1,0 +1,105 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+  padding:0px;
+  margin:0px;
+}
+#lname
+{
+  margin-left:35%;
+  padding-top:40px;
+  font-size:85px;
+  font-family:Times New Roman;
+  font-style:italic;
+  color:yellow;
+}
+#btn1
+{
+ margin-left:92.5%;
+ padding-top:-20px;
+}
+.btn1
+{
+height:30px;
+margin-top:2px;
+width:110px;
+background-color:#41be3d;
+border-radius:15px;
+cursor:pointer;
+position:absolute;
+border:3px solid black;
+outline:none;
+}
+.category
+{
+	border: 2px solid black;
+    height: 825px;
+    width: 20%;
+    float: left;
+    margin-left: 0.3%;
+}
+#category
+{
+	text-align: center;
+}
+#item
+{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+#main
+{
+	border: 2px solid black;
+	height: 825px;
+	width: 79%;
+	float: left;
+	margin-left: 0.1%;
+}
+.main
+{
+	border: 1px solid black;
+	height: 230px;
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+#logo
+{
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+	height: 200px;
+	width: 30%;
+}
+#name
+{
+	float: left;
+	margin-top: 2%;
+	font-size: 27px;
+	font-weight: bold;
+}
+#ulog
+{
+   height:30px;
+   width:85px;
+   cursor:pointer;
+   font-size:17px;
+   margin-left:92%;
+   color:red;
+   background-color:#E3C3BB;
+}
+
+footer
+{
+border-color:black;
+color:white;
+border:10px;
+text-align:center;
+margin-top:60%;
+height:30px;
+padding-top:1%;
+margin-right: 0;
+background-color:black;
+}

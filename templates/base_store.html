@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+{% block head%}
+
+{% endblock %}
+<body>
+
+ <div style="background-color:#00203FFF;">
+<div id="btn1"><a href="{% url 'admin'%}"><button class="btn1">Admin login</button></a></div>
+<div id="lname" class="font-effect-outline">B-Mart</div>
+<img style="margin-left:200px;height:200px;margin-top:-140px;width:18%;" src="{% static "images/logo.png"%}">
+<div style="float: left; margin-left: 75%; margin-top:-2.5%;"><a href="{% url 'about'%}" style="text-decoration:none;color: white;font-size: 30px;" >About Us</a></div>
+<div style="float: left; margin-left: 86%;margin-top:-2.5%;"><a href="{% url 'contact'%}" style="text-decoration:none;color: white;font-size: 30px;" >Contact Us </a></div>
+    </div>
+
+ <div>
+      {% if request.session.email %}
+      <div><a href="{% url 'front' %}"><button type="submit" name="" id="ulog" style="margin-left:90%;margin-top:10px;width:7%;height:35px;border-radius:5px;">
+          Logout</button></a></div>
+         {% endif %}
+      </div>
+
+<div style="margin-top: 0.5%; ">
+	   <div class="category">
+		<h2 style="text-align: center; margin-top: 5%; ">All Categories</h2><hr><br>
+		<div id="category"><a href="{% url 'jewel'%}" id="item"> Jewellery </a></div><hr><br>
+		<div id="category"><a href="{% url 'stationary'%}" id="item"> Stationary </a></div><hr><br>
+		<div id="category"><a href="{% url 'fashion'%}" id="item"> Clothing </a></div><hr><br>
+		<div id="category"><a href="{% url 'food'%}" id="item"> Food </a></div><hr><br>
+	</div>
+    {% block content%}
+
+    {% endblock%}
+</div>
+<div>
+<p><ul style="position:absolute;margin-top:57%;font-size:30px;padding-left:88%;"><li>Follow us on</li></ul></p>
+</div>
+<footer>&copy;B-Mart,Burhanpur , All rights reserved
+<a href="https://twitter.com/login?lang=en"><img style="height:30px;float:right;margin-right:30px;margin-top:-0.3%;" src="{% static 'images/twitter.jpg'%}"></a>
+<a href="https://www.instagram.com/accounts/login/"><img style="height:30px;float:right;margin-right:30px;margin-top:-0.3%" src="{% static 'images/insta.jpg'%}"></a>
+<a href="https://www.facebook.com/"><img style="height:30px;float:right;margin-right:40px;margin-top:-0.3%" src="{% static 'images/fb.jpg'%}"></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+#lname
+{
+  margin-left:35%;
+  padding-top:40px;
+  font-size:85px;
+  font-family:Times New Roman;
+  font-style:italic;
+  color:yellow;
+}
+#btn1
+{
+ margin-left:92.5%;
+ padding-top:-20px;
+}
+.btn1
+{
+height:30px;
+margin-top:2px;
+width:110px;
+background-color:#41be3d;
+border-radius:15px;
+cursor:pointer;
+position:absolute;
+border:3px solid black;
+outline:none;
+}
+
+#back
+{
+  position: relative;
+ text-align: center;
+ margin-top:-5%;
+}
+
+footer
+{
+border-color:black;
+color:white;
+border:10px;
+text-align:center;
+background-color:black;
+}

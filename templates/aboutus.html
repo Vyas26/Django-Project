@@ -1,0 +1,94 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+	<title>About Us</title>
+	<link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'aboutus.css' %}">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+</head>
+  <body>
+  <div style="background-color:#00203FFF;">
+<div id="btn1" style="font-size:15px;font-family:times new roman"><a href="admin"><button class="btn1">Admin login</button></a></div>
+<div id="lname" class="font-effect-outline">B-Mart</div>
+<img style="margin-left:200px;height:200px;margin-top:-170px;width:18%;" src="{% static "images/logo.png" %}">
+<div style="float: left; margin-left: 75%; margin-top:-2.5%;"><a href="{% url 'about' %}" style="text-decoration:none;color:white;font-size: 30px;font-family:times new roman;">About Us</a></div>
+<div style="float: left; margin-left: 86%;margin-top:-3%;"><a href="{% url 'contact' %}" style="text-decoration:none;color: white;font-size: 30px;font-family:times new roman">Contact Us</a></div>
+</div>
+
+
+
+ <img style="height:200%; width:100%; margin-top:-0.5%;" src="{% static "images/about_cart3.jpg" %}">
+
+   <div>
+<p><ul style="position:absoulte;margin-top:-5%;font-size:30px;padding-left:88%;font-family:times new roman;"><li>Follow us on</li></ul></p>
+</div>
+<footer style="margin-top:-0.5%;height:40px;padding-top:0.5%;font-family:times new roman">&copy;B-Mart,Burhanpur , All rights reserved
+<a href="https://twitter.com/login?lang=en"><img style="height:30px;float:right;margin-right:30px;" src="{% static 'images/twitter.jpg'%}"></a>
+<a href="https://www.instagram.com/accounts/login/"><img style="height:30px;float:right;margin-right:30px;" src="{% static 'images/insta.jpg'%}"></a>
+<a href="https://www.facebook.com/"><img style="height:30px;float:right;margin-right:40px;" src="{% static 'images/fb.jpg'%}"></a>
+</footer>
+
+    <div id="container-fluid">
+       <div class="col mx-auto">
+
+         <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-top:-40%;width:70%;margin-left:15%;">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne" style="height:150px;" >
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="background-color:black;">
+        <div style="margin-left:40%;font-weight:bold;font-size:23px;color:white;">****OVERVIEW****</div>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="margin-top:-8%;color:black;font-size:25px;font-family:times new roman;">
+       BMart is a one-stop supermarket chain that aims to offer customers a wide range of basic home and personal products under one roof.
+        Each BMart store stocks home utility products - including food, garments, jewellery, stationary, available at competitive prices that
+        our customers appreciate. Our core objective is to offer customers good products at great value.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo" style="height:150px;">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="background-color:black">
+        <div style="margin-left:38%;font-weight:bold;font-size:23px;color:white;">****OUR MISSION****</div>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="margin-top:-8%;color:black;font-size:25px;font-family:times new roman;">
+       At BMart, we research, identify and make available new products and categories that suit the everyday needs of the Indian family.
+        Our mission is to provide the best value possible for our customers, so that every rupee they spend on shopping with us gives them more
+        value for money than they would get anywhere else.
+      </>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree" style="height:150px;">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="background-color:black;">
+        <div style="margin-left:35%;font-weight:bold;font-size:23px;color:white">****OUR CUSTOMER PLEDGE****</div>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="margin-top:-8%;color:black;font-size:25px;font-family:times new roman;">
+        At BMart, we place strong emphasis on excellence in customer service. Our employees believe in the values of Action, Care and Truth (ACT)
+          to get the job done, with Dedication and Determination.</div>
+      </div>
+    </div>
+  </div>
+         </div>
+       </div>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

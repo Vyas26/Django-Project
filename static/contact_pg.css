@@ -1,0 +1,66 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+  padding:0px;
+  margin:0px;
+}
+#lname
+{
+  margin-left:35%;
+  padding-top:40px;
+  font-size:85px;
+  font-family:Times New Roman;
+  font-style:italic;
+  color:yellow;
+}
+#btn1
+{
+ margin-left:92.5%;
+ padding-top:-20px;
+}
+.btn1
+{
+height:30px;
+margin-top:2px;
+width:110px;
+background-color:#41be3d;
+border-radius:15px;
+cursor:pointer;
+position:absolute;
+border:3px solid black;
+outline:none;
+}
+#main
+{
+	border: 2px solid gray; 
+	height: 400px; 
+	width: 98%; 
+	float: left; 
+	margin-left: 1%; 
+	margin-top: 0.5%;
+}
+h1
+{
+	float: left; 
+	margin-left: 3%; 
+	margin-top: 3%;
+}
+#contact
+{
+	height: 100%; 
+	width: 35%; 
+	float: left; 
+	margin-left: 40%; 
+}
+footer
+{
+border-color:black;
+color:white;
+border:10px;
+text-align:center;
+margin-top:32.7%;
+height:30px;
+padding-top:1%;
+margin-right: 0;
+background-color:black;
+}
